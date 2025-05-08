@@ -7,10 +7,10 @@
     a place filled with joy and creativity, where flavors come to life and traditions are lovingly preserved. It’s where I learned to appreciate 
     the little things, from the aroma of freshly made curry to the comfort of a home-cooked meal after a long day. Each dish carries a story, a 
     memory, and a piece of her heart, and it's a pleasure to introduce you my favorite recipes from her magical hand."/>
-  <p v-if="loading">Loading recipes...</p>
-  <p v-if="errorMessage" class="error">{{ errorMessage }}</p>
   <MyHeader content="Her Timeless Recipes"/>
   <RecipeBox :recipes="recipes"/>
+  <p v-if="loading" class = "loading">Loading recipes...</p>
+  <p v-if="errorMessage" class="error">{{ errorMessage }}</p>
   <MyFooter finalNote = "I hope these recipes bring a touch of warmth and joy to your table!" 
   thankyou = "Thank you for your time and Enjoy!"/>
 </template>
@@ -71,6 +71,11 @@ export default {
 body {
   font-family: 'Montserrat', sans-serif;
   background-color:#dab3ca;
+}
+.loading{
+  color: green;
+  text-align: center;
+  margin: 20px 0;
 }
 .error {
   color: red;
