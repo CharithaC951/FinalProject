@@ -39,7 +39,7 @@ export default {
   methods: {
     async fetchrecipes() {
       try {
-        const res = await fetch("http://localhost:9096/recipes")
+        const res = await fetch("https://webfinalproject-v004.onrender.com/api")
         if (!res.ok) {
           throw new Error('Failed to fetch recipes')
         }

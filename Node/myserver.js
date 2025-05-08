@@ -29,6 +29,8 @@ const server = http.createServer(async (req, res) => {
 
     if (req.url === '/'){
 
+        res.setHeader('Access-Control-Allow-Origin','*');
+
         // read my portfolio file
 
         fs.readFile(path.join(__dirname,'public','index.html'), 'utf-8', (err, data) => {
