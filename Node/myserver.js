@@ -1,7 +1,6 @@
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
-const open = require('open');
 const { MongoClient } = require('mongodb');
 
 const uri = "mongodb+srv://Charitha:Chinnapapannagari@cluster0.rsphcia.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
@@ -65,5 +64,4 @@ const server = http.createServer(async (req, res) => {
         );
     }
 });
-server.listen(8899, ()=> {console.log("yay server is running");
-open('http://localhost:8899');});
+server.listen(8899, ()=> {console.log("yay server is running")});
