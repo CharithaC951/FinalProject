@@ -64,4 +64,6 @@ const server = http.createServer(async (req, res) => {
         );
     }
 });
-server.listen(8899, ()=> {console.log("yay server is running")});
+server.listen(8899, async () => {
+    console.log("Yay! Server is running on http://localhost:8899");
+});

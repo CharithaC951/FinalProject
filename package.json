@@ -11,5 +11,9 @@
     "url": "https://github.com/CharithaC951/FinalProject/issues"
   },
   "homepage": "https://github.com/CharithaC951/FinalProject#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "mongodb": "^6.16.0",
+    "open": "^10.1.2"
+  }
 }
