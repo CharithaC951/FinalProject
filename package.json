@@ -1,0 +1,19 @@
+{
+  "name": "webfinal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharithaC951/FinalProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CharithaC951/FinalProject/issues"
+  },
+  "homepage": "https://github.com/CharithaC951/FinalProject#readme",
+  "description": ""
+}

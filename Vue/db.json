@@ -1,0 +1,145 @@
+{ "recipes":[
+  {
+    "_id": "681a1586b12cf97b9e8655cb",
+    "name": "Tamarind Rice",
+    "description": "A tangy and flavorful South Indian rice dish made with tamarind extract and aromatic spices.",
+    "ingredients": [
+      "2 cups cooked rice",
+      "2 tbsp tamarind paste",
+      "1 tbsp oil",
+      "1 tsp mustard seeds",
+      "1 tsp chana dal",
+      "1 tsp urad dal",
+      "2 dried red chilies",
+      "10 curry leaves",
+      "1/4 tsp turmeric powder",
+      "Salt to taste"
+    ],
+    "cookingTime": "30 minutes",
+    "imageUrl": "https://cookilicious.com/wp-content/uploads/2024/11/Puliogare-tamarind-rice-1-scaled.jpg",
+    "instructions": [
+      "Heat oil in a pan, add mustard seeds and let them splutter.",
+      "Add chana dal, urad dal, red chilies, and curry leaves. Sauté for a minute.",
+      "Add turmeric powder and tamarind paste. Cook until oil separates.",
+      "Add salt and mix the paste with cooked rice.",
+      "Serve warm."
+    ],
+    "servingSize": 4,
+    "memory": "Mom used to pack this for school lunch on rainy days—it always tasted better than anything in the cafeteria.",
+    "type": "Vegetarian"
+  },
+  {
+    "_id": "681a15b7b12cf97b9e8655cc",
+    "name": "Paneer Butter Masala",
+    "description": "A rich and creamy North Indian curry made with paneer cubes simmered in a buttery tomato sauce.",
+    "ingredients": [
+      "200g paneer, cubed",
+      "2 tbsp butter",
+      "1 onion, chopped",
+      "2 tomatoes, pureed",
+      "1 tsp ginger garlic paste",
+      "1/2 cup cream",
+      "1 tsp garam masala",
+      "1/2 tsp chili powder",
+      "Salt to taste",
+      "Fresh coriander leaves"
+    ],
+    "cookingTime": "40 minutes",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQy6dz6Ncc_ywFQQPZtyZgLQU1siNXkAwIMA&s\nhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI38pCuzj-b23JE0jr4oXaLmvIW9JZr7wXuQ&s",
+    "instructions": [
+      "Heat butter in a pan and sauté onions until golden.",
+      "Add ginger garlic paste and sauté until raw smell goes.",
+      "Add tomato puree, chili powder, garam masala, and cook until oil separates.",
+      "Add cream and paneer cubes. Simmer for 10 minutes.",
+      "Garnish with coriander and serve hot with naan or rice."
+    ],
+    "servingSize": 3,
+    "memory": "The first dish I learned from mom during summer vacation—we laughed so much when I almost burnt the butter.",
+    "type": "Vegetarian"
+  },
+  {
+    "_id": "681a15e0b12cf97b9e8655cd",
+    "name": "Chicken Pulao",
+    "description": "A mildly spiced rice dish cooked with tender chicken and aromatic whole spices.",
+    "ingredients": [
+      "1 cup basmati rice",
+      "300g chicken, cut into pieces",
+      "1 onion, sliced",
+      "1 tomato, chopped",
+      "2 tbsp oil",
+      "1 tsp ginger garlic paste",
+      "1 bay leaf",
+      "2 cloves",
+      "1 cinnamon stick",
+      "1 tsp garam masala",
+      "Salt to taste"
+    ],
+    "cookingTime": "45 minutes",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROClkLoDhniymJR6Jk8NdrtR9hvs58KSGLtQ&s",
+    "instructions": [
+      "Wash and soak rice for 20 minutes.",
+      "In a pressure cooker, heat oil and add whole spices.",
+      "Add onions and sauté until golden. Add ginger garlic paste and sauté.",
+      "Add chicken, tomatoes, garam masala, and salt. Cook until chicken is half done.",
+      "Add soaked rice and water. Pressure cook for 2 whistles.",
+      "Fluff and serve hot."
+    ],
+    "servingSize": 4,
+    "memory": "Mom used to make this every Sunday—it was the smell that got me running to the kitchen.",
+    "type": "Non-Vegetarian"
+  },
+  {
+    "_id": "681a1609b12cf97b9e8655ce",
+    "name": "Sabudana Kheer",
+    "description": "A creamy Indian dessert made with tapioca pearls, milk, and sugar, often enjoyed during festivals.",
+    "ingredients": [
+      "1/2 cup sabudana (tapioca pearls)",
+      "4 cups milk",
+      "1/2 cup sugar",
+      "1/4 tsp cardamom powder",
+      "10 cashews",
+      "10 raisins",
+      "1 tbsp ghee"
+    ],
+    "cookingTime": "35 minutes",
+    "imageUrl": "https://www.cookclickndevour.com/wp-content/uploads/2015/08/sabudana-kheer-recipe.jpg",
+    "instructions": [
+      "Soak sabudana for 2 hours.",
+      "Boil milk and add soaked sabudana.",
+      "Cook until pearls turn translucent and kheer thickens.",
+      "Add sugar and cardamom powder. Stir well.",
+      "Fry cashews and raisins in ghee and add to kheer.",
+      "Serve warm or chilled."
+    ],
+    "servingSize": 5,
+    "memory": "She made this every year for Shivratri—watching the pearls dance in the milk always felt magical.",
+    "type": "Dessert"
+  },
+  {
+    "_id": "681a16ecb12cf97b9e8655cf",
+    "name": "Idli and Chutney",
+    "description": "A classic South Indian breakfast combo of soft steamed rice cakes and coconut chutney.",
+    "ingredients": [
+      "2 cups idli batter",
+      "1/2 cup grated coconut",
+      "2 tbsp roasted chana dal",
+      "1 green chili",
+      "1/2 inch ginger",
+      "Salt to taste",
+      "1 tsp mustard seeds",
+      "5 curry leaves",
+      "1 tsp oil"
+    ],
+    "cookingTime": "25 minutes",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXDl7kVDp6iumfDcr_52Q-h8L77guMtEkXkw&s",
+    "instructions": [
+      "Pour batter into idli molds and steam for 10-12 minutes.",
+      "Grind coconut, chana dal, chili, ginger, and salt to make chutney.",
+      "Heat oil, add mustard seeds and curry leaves, and pour over chutney.",
+      "Serve idlis with the chutney on the side."
+    ],
+    "servingSize": 3,
+    "memory": "Our Sunday breakfast ritual—mom would hum her favorite tunes while making these soft, fluffy idlis.",
+    "type": "Vegetarian"
+  }
+]}

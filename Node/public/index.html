@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Document</title>
+    <style>
+        :root{
+    --my-radius: 5px;
+    --my-padding: 15px;
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --yellowish: #f7c600;
+    --reddish: #f45b69;
+    --navy: #52489c;
+    --lightnavy: #4062bb;
+    --green:#f6fff8;
+    }
+    
+    .container{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "header header header header header header"
+    "navbar navbar navbar navbar navbar navbar"
+    "ab ab ab ab ab ab"
+    "edu edu edu main main main"
+    "blog blog blog main main main"
+    "blog blog blog name name name"
+    "exp exp exp exp exp exp"
+    "proj proj proj proj proj proj"
+    "icons icons icons icons icons icons";
+    height: 100vh;
+    width: 100%;
+    grid-gap: 0.8rem;
+    background-color: #ffffff ;
+    }
+    
+    header{
+        grid-area: header;
+        background-color: var(--green);
+        padding: var(--my-padding);
+        border-radius: var(--my-radius);
+        text-align: center;
+        font-weight: bolder;
+        font-size: larger;
+    }
+
+    nav{
+    grid-area:navbar ;
+    background-color: var(--green);
+    padding: 10px;
+    padding-left: 12px;
+    padding-right: 3px;
+    border-radius: var(--my-radius);
+    }
+    
+    #ab{
+    grid-area:ab ;
+    background-color: var(--green);
+    padding: var(--my-padding);
+    border-radius: var(--my-radius);
+    }
+    
+    #edu{
+    grid-area:edu;
+    background-color: var(--green);
+    padding: var(--my-padding);
+    border-radius: var(--my-radius);
+    }
+    
+    #blog{
+    grid-area:blog;
+    background-color: var(--green);
+    padding: var(--my-padding);
+    border-radius: var(--my-radius);
+    }
+    
+    #name{
+    grid-area:name;
+    background-color: var(--green);
+    padding: var(--my-padding);
+    border-radius: var(--my-radius);
+    }
+    
+    #main{
+    grid-area: main;
+    background-color: var(--green);
+    padding: var(--my-padding);
+    border-radius: var(--my-radius);
+    }
+    
+    img {
+    width: 100%;
+    height: 320px;
+    }
+    
+    #name {
+    text-align: center;
+    width: 100%;
+    }
+    
+    .item {
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #E0E0E0;
+    text-align: center;
+    }
+    
+    .item img {
+    width: 100%;
+    height:auto;
+    border-radius: 8px;
+    }
+    
+    #name{
+    grid-area:name;
+    background-color: var(--green);
+    padding: var(--my-padding);
+    border-radius: var(--my-radius);
+    }
+    
+    #exp{
+    grid-area:exp;
+    background-color: var(--green);
+    padding: var(--my-padding);
+    border-radius: var(--my-radius);
+    }
+    
+    #proj{
+    grid-area:proj;
+    background-color: var(--green);
+    padding: var(--my-padding);
+    border-radius: var(--my-radius);
+    }
+    
+    .projects{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+    }
+    
+    #icons{
+    grid-area:icons;
+    background-color: var(--green);
+    padding: var(--my-padding);
+    border-radius: var(--my-radius);
+    }
+    
+    .caption{
+    text-align: justify;
+    }
+    
+    .box
+    {
+    background-color: #cce3de;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    width: 235px;
+    padding: 10px;
+    margin: 6px;
+    margin-top: 0px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    }
+    
+    .contact
+    {
+    padding-top: 10 px;
+    overflow: auto;
+    justify-content: space-between;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    }
+    
+    .contact a{
+    margin: 1px;
+    width: 290px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    color:#619b8a;
+    }
+    
+    .contact a\:hover {
+    color: #0077b5;
+    }
+    
+    @media screen and (max-width: 500px) {
+    .container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "header"
+    "navbar"
+    "main"
+    "name"
+    "ab"
+    "edu"
+    "blog"
+    "exp"
+    "proj"
+    "icons";
+    height: auto;
+    }
+    
+    
+    nav{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    background-color: var(--green);
+    padding: 10px;
+    margin-right: 5px;
+    }
+    
+    .box {
+    width: 90%;
+    margin: 5px 0;
+    text-align: center;
+    }
+    
+    #main img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    }
+    
+    .projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    gap: 10px;
+    }
+    
+    .item {
+    padding: 5px;
+    }
+    
+    .contact{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 5px;
+        justify-content: center;
+        margin: 5px;
+    }
+    
+    .contact a {
+    font-size: 24px;
+    padding: 5px;
+    }
+    }
+    
+    </style>
+</head>
+<body>
+    <div class = "container">
+        <header>
+            MY PORTFOLIO
+        </header>
+        <nav id = "navbar"> 
+            <a class = "box" href="#aboutme">ABOUT ME</a> 
+            <a class = "box" href="#education">EDUCATION</a> 
+            <a class = "box" href="#experience">EXPERIENCE</a> 
+            <a class = "box" href="#projects">PROJECTS</a>
+            <a class = "box" href="#blogs">BLOGS</a>
+            <a class = "box" href="#contact">CONTACT</a>
+        </nav>
+        <section id = "ab">
+            <p><span><b id = "aboutme">ABOUT ME </b>Hello! I'm Charitha Chinnapapannagari, a passionate and dedicated student, with a strong focus on network engineering, software development, data science. I love solving complex problems through innovative solutions and am constantly 
+                striving to expand my knowledge and skills. My journey is fueled by a deep curiosity and a commitment to excellence in every project I undertake. Whether working on a collaborative team project or diving into solo problem-solving, I approach challenges with enthusiasm 
+                and a keen eye for detail. I value clear communication, proactive thinking, and staying up-to-date with the latest industry advancements.</span></p>
+        </section>
+        <article id = "edu">
+            <b id = "education">EDUCATION</b>
+                        <p>I hold a Masters Degree in Computer Science from University of New Haven, where I graduated in 2025. During my academic journey, I focused on areas like network engineering, optimization techniques, machine learning, gaining a solid foundation that equipped me 
+                            to tackle real-world challenges. My academic journey was marked by several achievements, including RA, UPE. One of the highlights of my education was working on a project where I briefly describe a significant academic project, which not only honed my technical 
+                            skills but also strengthened my problem-solving abilities.</p>
+        </article>  
+        <article id = "blog">
+            <b id = "blogs">BLOGS</b>
+                        <p>Writing is one of my passions, as it allows me to share my knowledge and insights with a wider audience. My blog serves as a platform to discuss topics that intrigue me, particularly in areas related to technology, optimization, and personal growth. I often write 
+                            about my experiences with troubleshooting complex network configurations, tips on using IBM ILOG CPLEX for solving production planning problems, and insights into staying productive and motivated as a tech professional. Through my blogs, I aim to make technical 
+                            concepts more accessible and inspire others who are navigating similar challenges. Some of my most popular posts include [mention a few titles], where I break down complex ideas into practical, easy-to-follow guides.</p>
+        </article>  
+        <main id = "main">
+            <img src="https://img.freepik.com/free-photo/smiley-businesswoman-posing-outdoors-with-arms-crossed-copy-space_23-2148767055.jpg?semt=ais_hybrid&w=740" alt = "Profile pic">
+        </main>
+        <article id = "name">
+            <b>CHARITHA CHINNAPAPANNAGARI</b><br>
+            MS Computer Science
+        </article>
+        <section id = "exp">
+            <b id = "experience">EXPERIENCE</b>
+                <p class = "text" >My professional journey has been both challenging and rewarding, offering me valuable insights and hands-on experience. Currently, I am working as a Job Title at Company Name, where I focus on designing and 
+                    implementing solutions that address critical operational challenges. One of my key projects involved developing [mention a specific project, e.g., network automation scripts or optimization model, which significantly 
+                    improved mention the result, e.g., system efficiency or network performance. In this role, I lead a team of number, collaborating closely to meet project objectives and deliver results that exceed expectations.
+                    Previously, I worked as a Job Title at Previous Company Name, where I was responsible for mention core responsibilities, e.g., maintaining servers, supporting client projects. During this time, I contributed to optimizing 
+                    mention a specific process or system, which led to mention a quantifiable outcome, e.g., increased efficiency or reduced downtime. Working in diverse environments has equipped me with the skills to adapt, learn quickly, and 
+                    make meaningful contributions to my team’s success.</p>
+        </section>
+        <section id = "proj">
+            <b id = projects>PROJECTS</b>
+            <div class="projects">
+                <div class="item" class ="proj1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuIFLsL6ZTE97EG1-5VyCoEUaAbmBLsopzrA&s" alt="Image 1">
+                    <p class = "caption">Designed and implemented a multi-site network for five global locations using Cisco Packet Tracer. Configured OSPF for dynamic routing, centralized NAT, and DHCP using ASA firewalls. Resolved NAT translation and return path issues, particularly at the Berlin site, ensuring robust inter-site connectivity. Enhanced network security and performance through optimized firewall configurations.</p>
+                </div>
+                <div class="item" class ="proj2">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuIFLsL6ZTE97EG1-5VyCoEUaAbmBLsopzrA&s" alt="Image 2">
+                    <p class = "caption">Developed a 12-month production plan for Toysco to maximize net profit using IBM ILOG CPLEX. Optimized resource allocation between new and recycled plastic while meeting production and demand constraints. Achieved a balanced production schedule with a net profit of $2,176,250, demonstrating effective application of optimization techniques.</p>
+                </div>
+                <div class="item" class ="proj3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuIFLsL6ZTE97EG1-5VyCoEUaAbmBLsopzrA&s" alt="Image 3">
+                    <p class = "caption">Built a real-time pose estimation pipeline for activity recognition using TensorFlow and OpenCV. Implemented a model to identify keypoints and classify actions (sitting, standing, walking). Optimized for real-time processing with high prediction accuracy, suitable for fitness tracking and safety applications.</p>
+                </div>
+                <div class="item" class ="proj4">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuIFLsL6ZTE97EG1-5VyCoEUaAbmBLsopzrA&s" alt="Image 4">
+                    <p class = "caption">Developed a responsive portfolio website using HTML, CSS, JavaScript, Node.js, and MongoDB. Implemented a CMS for dynamic content updates and a RESTful API for project data. Deployed on Netlify for accessible, high-performance web hosting.</p>
+                </div>
+            </div>
+        </section>
+        <footer id = "icons">
+            <b id = "contact">CONTACT</b>
+        <div class="contact">
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="mail"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.github.com" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="tel:+1234567890"><i class="fas fa-phone"></i></a>
+        </div>
+        </footer>
+    </div>
+</body>
+</html>
