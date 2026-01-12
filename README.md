@@ -4,7 +4,7 @@ A full-stack recipe application designed to preserve and present traditional hom
 
 ## 📸 Project Preview
 
-![My Mom’s Kitchen Magic](mom_kitchen_magic.jpg)
+![My Mom’s Kitchen Magic](Mom_Kitchen_Magic.jpg)
 
 ## ✨ Features
 
