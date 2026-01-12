@@ -1,14 +1,10 @@
 ## 🍽️ My Mom’s Kitchen Magic
 
 A full-stack recipe application designed to preserve and present traditional home-style recipes with a modern web interface.
-## 🎥 Project Demo
 
-<p align="center">
-  <video width="700" controls poster="assets/mom_kitchen_magic.jpg">
-    <source src="assets/mom_kitchen_magic.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</p>
+## 📸 Project Preview
+
+![My Mom’s Kitchen Magic](mom_kitchen_magic.jpg)
 
 ## ✨ Features
 
