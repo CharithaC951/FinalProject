@@ -18,7 +18,7 @@ Responsive and clean UI built with Vue.js
 
 Frontend: Vue.js, HTML, CSS, JavaScript
 
-Backend: Node.js, Express.js
+Backend: Node.js
 
 Database: MongoDB
 
