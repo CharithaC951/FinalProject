@@ -1,11 +1,16 @@
-🍽️ My Mom’s Kitchen Magic
+## 🍽️ My Mom’s Kitchen Magic
 
 A full-stack recipe application designed to preserve and present traditional home-style recipes with a modern web interface.
-<video src="Mom's_Kitchen_Magic.mp4" controls width="700" poster="Mom_Kitchen_Magic.jpg"></video>
-<video src="Mom's_Kitchen_Magic.mp4" controls width="700"></video>
+## 🎥 Project Demo
 
+<p align="center">
+  <video width="700" controls poster="assets/mom_kitchen_magic.jpg">
+    <source src="assets/mom_kitchen_magic.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
 
-✨ Features
+## ✨ Features
 
 Dynamic recipe cards with images and descriptions
 
@@ -17,7 +22,7 @@ Personal “memory” section for each recipe
 
 Responsive and clean UI built with Vue.js
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Frontend: Vue.js, HTML, CSS, JavaScript
 
