@@ -2,6 +2,7 @@
 
 A full-stack recipe application designed to preserve and present traditional home-style recipes with a modern web interface.
 <video src="Mom's_Kitchen_Magic.mp4" controls width="700" poster="Mom_Kitchen_Magic.jpg"></video>
+<video src="Mom's_Kitchen_Magic.mp4" controls width="700"></video>
 
 
 ✨ Features
