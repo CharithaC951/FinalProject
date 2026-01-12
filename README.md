@@ -1,6 +1,8 @@
 🍽️ My Mom’s Kitchen Magic
 
 A full-stack recipe application designed to preserve and present traditional home-style recipes with a modern web interface.
+<video src="demo.mp4" controls width="700" poster="thumbnail.png"></video>
+
 
 ✨ Features
 
